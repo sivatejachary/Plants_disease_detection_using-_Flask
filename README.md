@@ -8,7 +8,7 @@ Take necessary actions 👍
 
 ## Webpage Preview
 
-![image](Screenshot (218).png)
+![image](https://github.com/sivatejachary/Plants_disease_detection_using-_Falask/blob/9d4e7af6d452734d25830de034cc11d1f342a91e/Screenshot%20(218).png)
 
 ## Disease Prediction
 
