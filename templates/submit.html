@@ -1,0 +1,76 @@
+{% extends "import.html" %} <!-- Extend from your base template -->
+
+{% block content %}
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Style for the result section */
+#result {
+  border: 1px solid #ddd; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  padding: 20px; /* Add padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  max-width: 600px; /* Set maximum width */
+  width: 100%; /* Take up full width */
+  margin: auto; /* Center the result section horizontally */
+}
+
+
+    .result h2 {
+        color: #f2f5f8;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .result h5 {
+        color: #0c74e3; /* Darker blue for better visibility */
+        margin-top: 20px; /* Add more space on the top */
+        font-size: 18px; /* Slightly larger than paragraph text for emphasis */
+    }
+
+    .result p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #f8f4f4;
+        
+    }
+
+    .result a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    .result a:hover {
+        text-decoration: underline;
+    }
+
+    /* Style for images within the result section */
+.result img {
+  width: 200px; /* Set a specific width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 4px; /* Add border radius */
+  margin-bottom: 20px; /* Add margin to create space between images */
+}
+
+</style>
+
+<div class="container">
+    <div class="result">
+        <h2>Prediction Result</h2>
+        <img src="{{ url_for('uploaded_file', filename=details.image_path) }}" alt="Uploaded Image">
+        <h5>Disease Name:</h5>
+        <p>{{ details.result }}</p>
+        <h5>Description:</h5>
+        <p>{{ details.description }}</p>
+        <h5>Recommended Pesticide:</h5>
+        <p>{{ details.pesticide }}</p>
+        <h5>Product Link:</h5>
+        <p><a href="{{ details.product_link }}" target="_blank">{{ details.product_link }}</a></p>
+    </div>
+</div>
+{% endblock %}

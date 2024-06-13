@@ -1,0 +1,72 @@
+{% extends "import.html" %} 
+{% block content %}
+
+<center>
+    <div class="sub">
+        <div class="sub-one">
+            <div class="sub-one-one">
+                <img src="{{ url_for('static', filename='images/plant-2.png') }}" alt="plant-image" class="plant-img">
+            </div>
+            <div class="sub-two-two">
+                <br><h2>Plant Disease Detection</h2><br>
+                <p class="intro-content">Is your plant affected by an unknown disease?<br>
+                    <span class="dont-worry">Don't Worry 😀</span> <br> <br>
+                
+                    <span class="steps"> 
+                    📸 Upload the infected part of your plant<br>
+                    <br class="middle"> ✅ Get to know the name of the Disease<br> <br class="middle">
+                    ❗ Take necessary actions 
+                    </span> 
+                </p>           
+            </div>
+        </div>
+        <div class="vl"></div>
+        <div class="sub-two">
+            
+            <h2 class="upl">Upload Plant Image</h2>
+            <form id="upload-file" method="post" action="/predict" enctype="multipart/form-data">
+                <input type="file" name="image" class="btn btn-success" id="imageUpload" accept=".png, .jpg, .jpeg">
+            </form>
+            <!-- Image preview section -->
+            <div class="image-section" style="display:none;">
+                <img id="imagePreview" class="img-responsive" src="#" /><br><br>
+                <button type="submit" class="btn btn-info btn-lg" id="btn-predict" form="upload-file">Predict</button>
+            </div>
+
+            <div class="loader" style="display:none;"></div>
+
+            <h3 id="result">
+                <span> </span>
+            </h3>
+        </div>
+    </div>
+</center>
+
+<script>
+$(document).ready(function () {
+    // Function to preview image after validation
+    $(function() {
+        $("#imageUpload").change(function() {
+            $('.image-section').show();
+            $('#btn-predict').show();
+            $('#result').text('');
+            $('#result').hide();
+            readURL(this);
+        });
+    });
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                $('#imagePreview').attr('src', e.target.result);
+                $('#imagePreview').hide();
+                $('#imagePreview').fadeIn(650);
+            }
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+});
+</script>
+
+{% endblock %}

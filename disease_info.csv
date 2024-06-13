@@ -1,0 +1,16 @@
+disease_name,description,pesticide,product_link
+Pepper__bell___Bacterial_spot,"Caused by bacteria, leading to leaf spots, fruit spots, and defoliation.",Copper-based fungicide,https://www.bighaat.com/products/blue-copper-fungicide-1
+Pepper__bell___healthy,No disease detected. Plant is healthy.,,
+Potato___Early_blight,"Fungal disease causing dark spots on leaves with concentric rings, leading to leaf drop.",Chlorothalonil,https://www.katyayaniorganics.com/product/katyayani-dr-blight-metalaxyl-m-3-3-chlorothalonil-33-1-sc/
+Potato___Late_blight,"Caused by a fungus-like organism, leading to rapid wilting and death of plants.",Metalaxyl,https://www.indiamart.com/proddetail/ju-metalaxyl-fungicide-21888809991.html
+Potato___healthy,No disease detected. Plant is healthy.,,
+Tomato_Bacterial_spot,"Caused by bacteria, resulting in leaf spots and fruit rot.",Streptomycin,https://agribegri.com/products/tropical-tagmycin.php
+Tomato_Early_blight,Fungal disease characterized by lesions on the leaves that form concentric rings.,Mancozeb,https://www.agriplexindia.com/products/syngenta-abic-fungicide
+Tomato_Late_blight,"Serious disease caused by a fungus-like organism that affects leaves, stems, and fruits.",Azoxystrobin,https://www.indiamart.com/proddetail/syngenta-amistar-azoxystrobin-25-sc-100-ml-26176029912.html
+Tomato_Leaf_Mold,"Fungal disease affecting the leaves, causing yellow spots and mold on the underside.",Copper fungicides,https://www.bighaat.com/products/blue-copper-fungicide-1
+Tomato_Septoria_leaf_spot,"Fungal disease causing small, circular spots with gray centers and dark borders on leaves.",Pyraclostrobin,https://www.indiamart.com/proddetail/cabrio-top-metiram-pyraclostrobin-fungicide-21994390012.html
+Tomato_Spider_mites_Two_spotted_spider_mite,"Caused by spider mites, leading to stippled leaves and defoliation.",Abamectin,https://m.indiamart.com/proddetail/abamectin-2-ec-26127146697.html
+Tomato__Target_Spot,Fungal disease causing target-shaped spots on leaves and fruits.,Chlorothalonil,http://example.com/chlorothalonil-target
+Tomato__Tomato_YellowLeaf__Curl_Virus,"Viral disease causing leaf curling, yellowing, and stunted growth.",Imidacloprid,http://example.com/imidacloprid
+Tomato__Tomato_mosaic_virus,"Viral disease leading to mosaic patterns on leaves, stunted growth, and malformed fruits.",None,No specific chemical treatment
+Tomato_healthy,No disease detected. Plant is healthy.,,
