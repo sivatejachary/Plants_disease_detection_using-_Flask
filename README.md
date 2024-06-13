@@ -12,4 +12,4 @@ Take necessary actions 👍
 
 ## Disease Prediction
 
-![image]()
+![image](https://github.com/sivatejachary/Plants_disease_detection_using-_Falask/blob/f1500bf811af4bc6161be9a2320fc428673085d3/Screenshot%20(220).png)
