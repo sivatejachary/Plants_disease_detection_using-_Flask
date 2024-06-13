@@ -8,7 +8,7 @@ Take necessary actions 👍
 
 ## Webpage Preview
 
-![image](https://github.com/sivatejachary/Plants_disease_detection_using-_Falask/commit/fe540689a70a189ac410acb09d8eef855a399033#r143082844)
+![image](Screenshot (218).png)
 
 ## Disease Prediction
 
