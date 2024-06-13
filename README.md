@@ -2,7 +2,7 @@
 
 Upload the affected leaf of your plant 📷
 
-Get to know about the disease ✅
+Get to know about the disease ✅ and also provide the pesticides link
 
 Take necessary actions 👍
 
