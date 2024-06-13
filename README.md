@@ -8,7 +8,7 @@ Take necessary actions 👍
 
 ## Webpage Preview
 
-![image]()
+![image](https://user-images.githubusercontent.com/96369223/207110121-6b0dc821-ebf7-4be2-be8a-df19aae79296.png)
 
 ## Disease Prediction
 
