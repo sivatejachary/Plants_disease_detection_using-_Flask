@@ -2,14 +2,10 @@
 
 Upload the affected leaf of your plant 📷
 
-Get to know about the disease ✅
+Get to know about the disease ✅ and also provide the pesticides link
 
 Take necessary actions 👍
 
-## Webpage Preview
-
-![image](https://user-images.githubusercontent.com/96369223/207110121-6b0dc821-ebf7-4be2-be8a-df19aae79296.png)
-
 ## Disease Prediction
 
-![image](https://user-images.githubusercontent.com/96369223/207110333-46cdf258-7ee8-4ccb-902a-63891785b42e.png)
+![image](https://github.com/sivatejachary/Plants_disease_detection_using-_Falask/blob/f1500bf811af4bc6161be9a2320fc428673085d3/Screenshot%20(220).png)
